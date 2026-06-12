@@ -1,5 +1,5 @@
 const API =
-"http://localhost:5000/api";
+"https://progressive-web-application-277p.onrender.com";
 
 if(document.getElementById("registerForm")){
 

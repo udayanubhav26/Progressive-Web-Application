@@ -13,7 +13,9 @@ const app = express();
 
 connectDB();
 
-app.use(cors());
+app.use(cors({
+    origin: "https://progressive-web-application-vert.vercel.app", // later you can restrict frontend URL
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
