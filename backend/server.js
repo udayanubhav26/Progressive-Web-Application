@@ -17,7 +17,7 @@ connectDB()
 
 app.use(cors({
     origin: [
-      "https://progressive-web-application-vert.vercel.app", // later you can restrict frontend URL
+      "https://buzz-buy-bice.vercel.app/", // later you can restrict frontend URL
       "http://localhost:5000"
 
     ], 
