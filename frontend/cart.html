@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - BuzzBuy</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (same as main site) -->
+<header>
+    <nav class="navbar flex container">
+        <a href="index.html" class="logo">Buzz<span>Buy.</span></a>
+
+        <ul class="navlist flex">
+            <li><a href="index.html" class="link">HOME</a></li>
+            <li><a href="#" class="link">SHOP</a></li>
+            <li><a href="#" class="link">CONTACT</a></li>
+
+            <li class="nav-icons flex">
+                <a href="index.html" class="icon">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </a>
+
+                <a href="#" class="icon icon-active cart-icon">
+                    <i class="fa-solid fa-shopping-bag"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- CART SECTION -->
+<section class="section container">
+
+    <h2>Your Shopping Cart</h2>
+    <div class="line"></div>
+
+    <div id="cart-container" class="cart-container"></div>
+
+    <div class="cart-summary">
+        <h3 id="total">Total: ₹0</h3>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+</section>
+
+<script src="cart.js"></script>
+</body>
+
+</html>

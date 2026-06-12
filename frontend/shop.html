@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuzzBuy - E-Commerce</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav class="navbar flex container">
+
+        <a href="index.html" class="logo">Buzz<span>Buy.</span></a>
+
+        <ul class="navlist flex">
+
+            <li><a href="index.html" class="link">HOME</a></li>
+            <li><a href="shop.html" class="link active">SHOP</a></li>
+            <li><a href="blog.html" class="link">BLOG</a></li>
+            <li><a href="contact.html" class="link">CONTACT</a></li>
+
+            <li class="nav-icons flex">
+
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <a href="login.html" class="icon">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+
+                <a href="cart.html" class="icon icon-active cart-icon">
+                    <i class="fa-solid fa-shopping-bag"></i>
+                    <span id="cart-count">0</span>
+                </a>
+
+            </li>
+
+        </ul>
+
+        <a href="#" class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+
+    </nav>
+</header>
+<!-- ================= PRODUCTS ================= -->
+<section class="section container" style="margin-top: 50px;">
+
+    <h2>New Products</h2>
+    <div class="line"></div>
+
+    <div class="card-container flex wrap">
+
+        <!-- CARD 1 -->
+        <div class="card">
+            <img src="image/card-image1.jpg">
+
+            <div class="card-content">
+                <p class="title">Leather Black Handbag</p>
+                <div class="price"><span class="amount">₹100</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Leather Black Handbag"
+                    data-price="100"
+                    data-image="image/card-image1.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+            <img src="image/card-image2.jpg">
+
+            <div class="card-content">
+                <p class="title">Stylish Women Bag</p>
+                <div class="price"><span class="amount">₹120</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Stylish Women Bag"
+                    data-price="120"
+                    data-image="image/card-image2.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+            <img src="image/card-image3.jpg">
+
+            <div class="card-content">
+                <p class="title">Luxury Coat</p>
+                <div class="price"><span class="amount">₹150</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Luxury Handbag"
+                    data-price="150"
+                    data-image="image/card-image3.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+            <img src="image/card-image4.jpg">
+
+            <div class="card-content">
+                <p class="title">Black Coat</p>
+                <div class="price"><span class="amount">₹90</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Classic Bag"
+                    data-price="90"
+                    data-image="image/card-image4.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image5.jpg">
+
+            <div class="card-content">
+                <p class="title">Classic Bag</p>
+                <div class="price"><span class="amount">₹90</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Classic Bag"
+                    data-price="90"
+                    data-image="image/card-image5.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image6.jpg">
+
+            <div class="card-content">
+                <p class="title">Umberala</p>
+                <div class="price"><span class="amount">₹50</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Umberala"
+                    data-price="50"
+                    data-image="image/card-image6.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image7.jpg">
+
+            <div class="card-content">
+                <p class="title">Heirband</p>
+                <div class="price"><span class="amount">₹20</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Heirband"
+                    data-price="20"
+                    data-image="image/card-image7.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image8.jpg">
+
+            <div class="card-content">
+                <p class="title">Band</p>
+                <div class="price"><span class="amount">₹60</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Band"
+                    data-price="60"
+                    data-image="image/card-image8.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image9.jpg">
+
+            <div class="card-content">
+                <p class="title">Classical Shoes</p>
+                <div class="price"><span class="amount">₹100</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Classical Shoes"
+                    data-price="100"
+                    data-image="image/card-image9.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image10.jpg">
+
+            <div class="card-content">
+                <p class="title">Bag</p>
+                <div class="price"><span class="amount">₹150</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Bag"
+                    data-price="150"
+                    data-image="image/card-image10.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image11.jpg">
+
+            <div class="card-content">
+                <p class="title">Wallet</p>
+                <div class="price"><span class="amount">₹10</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Wallet"
+                    data-price="10"
+                    data-image="image/card-image11.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/card-image12.jpg">
+
+            <div class="card-content">
+                <p class="title">Shirt</p>
+                <div class="price"><span class="amount">₹70</span></div>
+
+                <button class="add-to-cart"
+                    data-name="Shirt"
+                    data-price="70"
+                    data-image="image/card-image4.jpg">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SALE BANNER ================= -->
+<section class="section">
+    <div class="sale-container">
+        <h3>New Trend 2026</h3>
+        <h1>Women's Collection</h1>
+        <div class="line"></div>
+        <h4>Big Sale of this week</h4>
+        <button>Shop Now!</button>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="footer-bottom">
+        <p>Copyright © 2026 <a href="#">BuzzBuy</a></p>
+    </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="main.js"></script>
+
+</body>
+</html>
