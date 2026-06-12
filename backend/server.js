@@ -11,10 +11,17 @@ const userRoutes = require("./routes/userRoutes");
 
 const app = express();
 
-connectDB();
+connectDB()
+    .then(() => console.log("DB Connected"))
+    .catch(err => console.log(err));
 
 app.use(cors({
-    origin: "https://progressive-web-application-vert.vercel.app", // later you can restrict frontend URL
+    origin: [
+      "https://progressive-web-application-vert.vercel.app", // later you can restrict frontend URL
+      "http://localhost:5000"
+
+    ], 
+    credentials: true
 }));
 
 app.use(express.json());
