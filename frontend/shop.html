@@ -20,17 +20,16 @@
 
         <ul class="navlist flex">
 
-            <li><a href="index.html" class="link">HOME</a></li>
-            <li><a href="shop.html" class="link active">SHOP</a></li>
+            <li><a href="index.html" class="link active">HOME</a></li>
+            <li><a href="shop.html" class="link">SHOP</a></li>
             <li><a href="blog.html" class="link">BLOG</a></li>
             <li><a href="contact.html" class="link">CONTACT</a></li>
 
             <li class="nav-icons flex">
 
-                <a href="#" class="icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-
+                <a href="#" class="icon" id="searchToggle">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</a>
                 <a href="login.html" class="icon">
                     <i class="fa-solid fa-user"></i>
                 </a>
@@ -49,9 +48,13 @@
         </a>
 
     </nav>
+    <div class="search-box" id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search products...">
+</div>
 </header>
+
 <!-- ================= PRODUCTS ================= -->
-<section class="section container" style="margin-top: 50px;">
+<section class="section container">
 
     <h2>New Products</h2>
     <div class="line"></div>
